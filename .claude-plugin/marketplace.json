@@ -1,0 +1,100 @@
+{
+    "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+    "name": "claude-plugin-marketplace",
+    "description": "Personal marketplace of Claude Code skills reused across JKHUKGY's repos.",
+    "owner": {
+        "name": "JKHUKGY"
+    },
+    "plugins": [
+        {
+            "name": "brainstorm-dataset-ideas",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/JKHUKGY/-data-faker.git",
+                "path": ".claude/skills/brainstorm-dataset-ideas",
+                "ref": "main"
+            },
+            "description": "Brainstorm fresh ideas for new fake datasets by reading the existing dataset index and proposing new concepts."
+        },
+        {
+            "name": "fake-data-generator",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/JKHUKGY/-data-faker.git",
+                "path": ".claude/skills/fake-data-generator",
+                "ref": "main"
+            },
+            "description": "Generate realistic, business-meaningful fake data for any vertical industry: TSV files, SQLite database, Python generator, ER docs, and SQL queries."
+        },
+        {
+            "name": "review-fake-data-generator",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/JKHUKGY/-data-faker.git",
+                "path": ".claude/skills/review-fake-data-generator",
+                "ref": "main"
+            },
+            "description": "External code-review pass over a dataset produced by fake-data-generator: business context, ER document, SQL queries, generator, and live database checks."
+        },
+        {
+            "name": "py-changelog",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/JKHUKGY/-data-faker.git",
+                "path": ".claude/skills/py-changelog",
+                "ref": "main"
+            },
+            "description": "Maintain a Python project's release-history changelog before publishing a new version."
+        },
+        {
+            "name": "run-summarize-and-translate",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/JKHUKGY/-data-faker.git",
+                "path": ".claude/skills/run-summarize-and-translate",
+                "ref": "main"
+            },
+            "description": "Finalize a signed-off dataset: write a Chinese summary, then translate every Chinese-authored artifact into English via subagents."
+        },
+        {
+            "name": "skill-subagent-design",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/JKHUKGY/-data-faker.git",
+                "path": ".claude/skills/skill-subagent-design",
+                "ref": "main"
+            },
+            "description": "Guidance on when to build an Agent Skill vs. a Subagent, and how to combine them with the skill-as-caller / subagent-as-doer pattern."
+        },
+        {
+            "name": "update-dataset-index",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/JKHUKGY/-data-faker.git",
+                "path": ".claude/skills/update-dataset-index",
+                "ref": "main"
+            },
+            "description": "Regenerate the dataset index files from every dataset's one-line summary files."
+        },
+        {
+            "name": "write-agent-skill",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/JKHUKGY/-data-faker.git",
+                "path": ".claude/skills/write-agent-skill",
+                "ref": "main"
+            },
+            "description": "Claude Code Agent Skill author guide: how to extend Claude with new skills."
+        },
+        {
+            "name": "write-subagent",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/JKHUKGY/-data-faker.git",
+                "path": ".claude/skills/write-subagent",
+                "ref": "main"
+            },
+            "description": "Claude Code Subagent author guide: how to create custom subagents."
+        }
+    ]
+}
