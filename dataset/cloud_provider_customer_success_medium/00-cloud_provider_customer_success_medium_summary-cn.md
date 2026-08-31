@@ -1,0 +1,1 @@
+该数据集刻画北美中端云基础设施服务商 NimbusScale, Inc. 的客户成功业务，覆盖 compute、storage、network、AI/ML 推理打包订阅与 Enterprise/Business/Pro/Basic 四级账户体系，由 11 张表（customer、subscription、usage_metrics、health_score、csm、csm_task、interaction_log 等）约 2,290 行数据构成，支持续约风险预警、健康度与工单关联分析、扩容机会识别、CSM 工作负载评估、承诺与实际消费对比等 20 条 SQL 查询，服务 Text-to-SQL、客户 360 和续约 Playbook 等分析场景，数据规模约 150 家客户，170 份订阅。

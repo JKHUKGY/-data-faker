@@ -1,0 +1,1 @@
+Meridian Health Plan 是一家总部位于德州奥斯汀的虚构区域性健康保险支付方，在 ACA marketplace 上按 Bronze、Silver、Gold、Platinum 金属层级销售 HMO、PPO、EPO 保单，本数据集刻画其事前授权 (Prior Authorization) 运营，覆盖 15 张表、约 8,200 行数据，核心实体包括 plans、members、providers、pa_requests、pa_decisions、appeals、claims，支持处理时限、批准率、拒绝原因分布、申诉推翻率等 SQL 查询；可用于分析 SLA 违约、金属层级间批准是否公平、拒绝码集中度、授权到理赔的漏损率、多级申诉推翻情况以及自动化审核效果；数据锚定生成当天往前 12 个月，含 400 名会员和约 700 条 PA 请求。

@@ -1,0 +1,1 @@
+Stratosend 是一家总部位于丹佛的虚构北美 B2B SaaS 公司，主营 API Observability Platform，服务约 2,000 家客户账户，付费客户约 280 家；数据集含 16 张表、约 118,000 行，围绕 lead、account、opportunity 等核心实体，支持漏斗、W-shaped 多触点归因、管道预测、销售生产力和 ABM 分析；可用于定位漏斗流失环节、评估 campaign 与渠道 ROI、核验 pipeline coverage 与预测可信度、监控 SDR/AE 产能及 SLA、衡量 ABM 目标客户覆盖效果。

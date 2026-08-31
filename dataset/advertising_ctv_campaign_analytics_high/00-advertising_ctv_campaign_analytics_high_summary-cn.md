@@ -1,0 +1,1 @@
+Vantage Media 是一家虚构的 AdTech SaaS 公司，核心产品 Booking Copilot 用 AutoML 帮 DTC 品牌客户投放 Connected TV (CTV) 广告；数据集含 20 张表、约 16.4 万行，核心实体是 advertiser、campaign、ad_placement、performance_actual 与 prediction_result，支持清除率排名、模型准确率评估、ROAS 归因对比等 20 个 SQL 查询；可用于分析广告位抢占造成的机会成本、行业与网络的 ROAS 差异、归因方法偏差和数据质量告警等业务问题；数据覆盖 120 个广告主、400 个活动、5 万条广告位预订，时间窗为 2025 年 5 月至 10 月。

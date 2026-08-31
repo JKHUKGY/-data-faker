@@ -1,0 +1,1 @@
+Kestrel Compute, Inc. 是一家总部位于俄亥俄州 Columbus 的 AI 算力运营商，在 ERCOT、PJM、MISO 三个电力市场运营 6 座数据中心园区；数据集含 18 张表约 50.4 万行，覆盖 iso_market、site、tariff_schedule、supply_contract（PPA）、dr_program、dr_event、curtailment_action、compute_job 等核心实体，以 15 分钟粒度的电价与计量数据支撑电费账单拆解、需求响应结算、PPA 形状风险与 4CP 输电费分析类查询；可用于识别需求响应项目扣除算力机会成本后是否真实盈利、基线灌水嫌疑、风电 PPA 是否被错误估值、需量棘轮与 4CP 预测失误的财务代价等业务问题；数据窗口为 FY2026 全年 365 天。

@@ -1,0 +1,1 @@
+NorthArc Photonics Manufacturing 是俄勒冈州 Hillsboro 的光纤连接器制造商，专做 fusion splicing 工序的 cable assembly，数据集覆盖 18 张表约 22 万行记录，核心事实表 splice_record 约 5 万行与 splice_attempt 约 5.5 万行，支持成本归因、良率趋势、交叉表和 ROI 估算类查询；数据可用于定位电极磨损、夜班质量恶化、multi-core 技能错配、FTTH 订单过度质量、AI 告警被忽视、设备校准超期以及坏批次 MFG-2024-038 召回风险等具体成本黑洞；覆盖 2025-06 至 2026-06 共 12 个月生产数据，客户 12 个，设备 12 台，操作员 30 人，旨在为 CFO 找出至少 $700K 的年化节约空间。

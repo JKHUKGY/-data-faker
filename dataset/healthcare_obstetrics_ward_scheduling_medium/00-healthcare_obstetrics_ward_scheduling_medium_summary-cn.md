@@ -1,0 +1,1 @@
+医疗数据咨询公司 Halcyon Health Analytics 为区域妇产科连锁医院 Cedar Ridge Women's Health 交付名为 MaterniFlow 的 AI 病房调度 POC，数据集含 11 张表、约 500 行，核心实体覆盖 patient、ob_profile、admission、bed、labor_progress、vital_sign、medical_order 与 alert，支持 20 条 SQL 查询；这些查询用于交班人数统计、床位四态余量、产后 LOS 预测、血压趋势高危预警与剖宫产资源排程等业务场景，帮助护士与医生在演示中验证 AI 能否替代旧 CMS 系统看清病房状态；数据规模为 50 名患者、16 次住院 (15 在院 + 1 已出院)、20 间房与 32 张床。

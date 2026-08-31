@@ -1,0 +1,1 @@
+Lakeshore Cinemas是一家总部位于芝加哥、运营18家影院92块银幕的中西部区域性院线连锁（cinema exhibition chain），数据集含10张表（theater、screen、film_booking、showtime、concession_sale、loyalty_redemption等核心实体），支持聚合、连接、CTE与窗口函数等20条SQL查询；用于检验卖品账面毛利是否被Lakeshore Rewards会员兑换虚增、二线市场IMAX银幕是否持续亏损被整体盈利掩盖、深夜场上座率是否被保底买回票充场，并支撑银幕利用率与场次卖品搭售分析；数据涵盖约3.8万场放映场次、7500名活跃会员，合计约9.7万行记录。

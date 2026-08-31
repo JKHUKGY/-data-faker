@@ -1,0 +1,61 @@
+{
+    "model": "sonnet",
+    "permissions": {
+        "defaultMode": "auto",
+        "deny": [
+            "Read(========== Secrets — .env ==========)",
+            "Read(.env)",
+            "Read(./.env)",
+            "Bash(cat .env)",
+            "Bash(cat ./.env)",
+            "Bash(head .env)",
+            "Bash(head ./.env)",
+            "Bash(tail .env)",
+            "Bash(tail ./.env)"
+        ],
+        "allow": [
+            "Read(========== Read Section ==========)",
+            "Read(========== Write Section ==========)",
+            "Edit(.claude/*.md)",
+            "Edit(.claude/TEACHING.md)",
+            "Edit(.claude/skills/*/*.md)",
+            "Edit(.claude/skills/*/SKILL.md)",
+            "Edit(.claude/skills/*/references/*.md)",
+            "Edit(.claude/skills/*/scripts/*.py)",
+            "Edit(./**/*.md)",
+            "Edit(./README.md)",
+            "Edit(./README-cn.md)",
+            "Edit(./TICKET.md)",
+            "Edit(./CLAUDE.md)",
+            "Edit(ai_datafaker_pro/**/*.py)",
+            "Edit(tests/**/*.py)",
+            "Edit(scripts/**/*.py)",
+            "Read(========== Bash Section ==========)",
+            "Bash(.venv/bin/python debug/**/*.py)",
+            "Bash(.venv/bin/python scripts/**/*.py)",
+            "Bash(.venv/bin/python config/**/*.py)",
+            "Bash(.venv/bin/python tests/**/*.py)",
+            "Bash(mise *)",
+            "Read(========== Skill Section ==========)",
+            "Read(========== Web Search ==========)",
+            "WebSearch",
+            "Read(========== Web Fetch ==========)",
+            "WebFetch(domain:raw.githubusercontent.com)"
+        ]
+    },
+    "extraKnownMarketplaces": {
+        "sanhe-claude-code-plugin-marketplace": {
+            "source": {
+                "source": "github",
+                "repo": "MacHu-GWU/sanhe_claude_code_plugin_marketplace-project",
+                "ref": "0.5.3"
+            }
+        }
+    },
+    "enabledPlugins": {
+        "coding-agent-docs@sanhe-claude-code-plugin-marketplace": true,
+        "dot-claude@sanhe-claude-code-plugin-marketplace": true,
+        "doc-writing-styles@sanhe-claude-code-plugin-marketplace": true,
+        "mermaid-styles@sanhe-claude-code-plugin-marketplace": true
+    }
+}

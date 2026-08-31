@@ -1,0 +1,1 @@
+CityPulse 是一家总部位于 Austin 的 Govtech SaaS 公司，为北美 120 个中型城市和县级政府提供 311 非紧急市政服务请求全流程管理平台，年 ARR 约 5000 万美元；数据集含 23 张表，核心实体是 service_requests、work_orders、model_predictions 与 tenant_health_snapshots，支持 SLA breach 分析、NLP 分类准确率评估、reopen 与同址复发检测、city council 投诉预测等查询；可用于诊断 Other 分类误路由、居民严重度勾选与文本偏离、现场速关掩盖真实解决率、升级语预警、租户级模型精度差异等业务问题；数据覆盖 36 个月约 100 万条服务请求，总行数约 1000 万行。

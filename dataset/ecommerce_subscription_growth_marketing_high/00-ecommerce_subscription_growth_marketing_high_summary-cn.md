@@ -1,0 +1,1 @@
+VerdantBox 是一家总部位于西雅图、面向美国和加拿大的虚构 DTC 订阅制健康食品公司，主打有机、植物基和功能性食品，核心会员产品是 VerdantBox+；数据集含 16 张表、约 9,000 行记录，围绕 customer、campaign、order、marketing_touchpoint、membership_subscription 等核心实体，配套 20 个覆盖 CTE、窗口函数、自连接的 SQL 查询；可用于分析营销组合 P&L 与预算再平衡、渠道 ROAS、会员经济学（AOV、LTV）、营销漏斗诊断、cohort 留存与 trial-to-paid 转化等业务问题；数据规模约 1,000 名客户、500 个 SKU、50 个营销活动。
